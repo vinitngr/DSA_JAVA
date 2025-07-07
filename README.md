@@ -1,7 +1,7 @@
 # DSA 
 
 - source - Striver DSA sheet
-- plateform - leetcode 
+- platform - leetcode 
 
 ## questions 
 | Platform    | #ID | Filename                  | Description                                                  |
@@ -15,7 +15,6 @@
 | LeetCode | [53](https://leetcode.com/problems/maximum-subarray) | maxSum.java               | Find contiguous subarray with the maximum sum               |
 | LeetCode | [56](https://leetcode.com/problems/merge-intervals) | mergeIntervals.java       | Merge all overlapping intervals                             |
 | LeetCode | [88](https://leetcode.com/problems/merge-sorted-array) | mergeSortedArray.java     | Merge two sorted arrays in-place                            |
-| N/A      | N/A | mergesort.java            | Standard Merge Sort implementation                          |
 | LeetCode | [50](https://leetcode.com/problems/powx-n) | mypow.java                | Implement power function xⁿ                                 |
 | LeetCode | [118](https://leetcode.com/problems/pascals-triangle) | pascaltriangle.java       | Generate Pascal's Triangle up to given number of rows       |
 | LeetCode | [46](https://leetcode.com/problems/permutations) | permutation.java          | Generate all permutations of an array                       |
