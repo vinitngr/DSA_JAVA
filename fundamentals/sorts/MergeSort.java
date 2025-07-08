@@ -1,9 +1,11 @@
-package DSA_Practice.striversheet;
+package DSA_Practice.fundamentals.sorts;
 
 import java.util.Arrays;
 
-public class mergesort {
+public class MergeSort {
     public static void main(String[] args) {
+        int[] arr = {1,2,31,3,21,4,52,7};
+        System.out.println(Arrays.toString(reversePairs(arr)));
 
     }
 
