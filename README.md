@@ -4,7 +4,7 @@
 - platform - leetcode 
 
 ## questions 
-| Platform    | #ID | Filename                  | Description                                                  |
+
 | Platform | #ID | Filename                  | Description                                                  |
 |----------|-----|---------------------------|--------------------------------------------------------------|
 | LeetCode | [442](https://leetcode.com/problems/find-all-duplicates-in-an-array) | FindDuplicate.java        | Find all elements appearing twice in an array               |
