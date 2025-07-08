@@ -1,4 +1,4 @@
-package DSA_Practice.striversheet;
+package striversheet;
 
 public class mypow {
     public static void main(String[] args) {

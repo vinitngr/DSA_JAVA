@@ -1,4 +1,4 @@
-package DSA_Practice.striversheet;
+package striversheet;
 public class maxSum {
     public static void main(String[] args) {
         int[] arr = {0,-2};

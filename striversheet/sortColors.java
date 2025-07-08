@@ -1,4 +1,4 @@
-package DSA_Practice.striversheet;
+package striversheet;
 
 import java.util.ArrayList;
 import java.util.Arrays;

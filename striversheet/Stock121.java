@@ -1,4 +1,4 @@
-package DSA_Practice.striversheet;
+package striversheet;
 // 2:30 AM 23 june , 2025
 public class Stock121 {
     public static void main(String[] args) {

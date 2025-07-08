@@ -1,4 +1,4 @@
-package DSA_Practice.striversheet;
+package striversheet;
 
 public class MajorityElement1_moose {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DSA_Practice.striversheet;
+package striversheet;
 
 public class search2Dmatrix {
     public static void main(String[] args) {

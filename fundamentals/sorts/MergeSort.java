@@ -1,4 +1,4 @@
-package DSA_Practice.fundamentals.sorts;
+package fundamentals.sorts;
 
 import java.util.Arrays;
 

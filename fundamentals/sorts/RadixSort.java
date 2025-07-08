@@ -1,4 +1,4 @@
-package DSA_Practice.fundamentals.sorts;
+package fundamentals.sorts;
 
 public class RadixSort {
     public static void main(String[] args) {

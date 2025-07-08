@@ -1,4 +1,4 @@
-package DSA_Practice.striversheet;
+package striversheet;
 
 
 public class FindDuplicate {
