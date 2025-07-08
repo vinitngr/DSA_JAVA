@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RadixSort {
     public static void main(String[] args) {
-        int[] nums = {7,22,6,5,1,9,23,1};
+        int[] nums = {7,222,22,6,5,1,9,23,1};
         sort(nums);
 
     }
