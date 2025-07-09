@@ -1,0 +1,41 @@
+Insertion sort:
+    Selects each element from the unsorted portion and compares it with all elements before it, shifting larger elements right to insert it into its correct position. This process repeats until all elements are sorted.
+    **Key points:**
+    * Stable and in-place sorting algorithm.
+    * Best case: $O(n)$ when array is nearly sorted.
+    * Worst case: $O(n^2)$ when array is reverse sorted.
+    * Efficient for small or mostly sorted datasets.
+
+
+Counting sort: stores frequency of every number in memory using an array of size (maxValue + 1).
+    Counting sort
+    * Space complexity: O(k), where k = maxValue + 1
+    * Time complexity: O(n + k)
+
+
+Radix sort: processes digits one by one, using a count array of size equal to the base (e.g., 10).
+    Radix sort
+    * Space complexity: O(n + k), where k = base (usually small, e.g., 10)
+    * Time complexity: O(d × (n + k)), where d = number of digits
+
+Bucket sort:
+    Divides input elements into several buckets based on value ranges. Each bucket stores elements falling within its range. Then, each bucket is sorted individually (often using insertion sort), and all buckets are concatenated to produce the final sorted array.
+    **Key points:**
+    * Efficient for uniformly distributed data.
+    * Time complexity: average $O(n + k)$, where $k$ = number of buckets.
+    * Space complexity: $O(n + k)$.
+    * Performance depends on bucket count and data distribution.
+    * Not suitable for skewed or large-range data without adjustments.
+
+Bubble sort:
+    Repeatedly steps through the array, compares adjacent elements, and swaps them if they are in the wrong order. This process continues until the array is sorted.
+    **Key points:**
+    * Simple but inefficient, time complexity $O(n^2)$.
+    * Stable and in-place.
+    * Best case $O(n)$ if optimized with a flag to stop early when no swaps occur.
+    * Rarely used in practice due to poor performance.
+
+Heap sort:
+    in tree
+    yet to come...
+    check for sub nodes and push bigger value upward and when biggest value is as top then we get last element and it get for all bigger value till only one element remain which is starting of that array
