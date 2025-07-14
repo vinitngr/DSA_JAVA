@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class reversePair {
     static int pair = 0;
     public static void main(String[] args) {
-        int[] arr = {4,1,1};
+        int[] arr = {4,1,1,1,1,5,1};
         reversePairs(arr);
         System.out.println(pair);
     }
