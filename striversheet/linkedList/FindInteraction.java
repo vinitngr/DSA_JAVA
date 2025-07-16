@@ -1,5 +1,9 @@
 package striversheet.linkedList;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class FindInteraction {
 
     public static class ListNode {
