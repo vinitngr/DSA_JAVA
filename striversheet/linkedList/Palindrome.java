@@ -32,3 +32,52 @@ public class Palindrome {
         return true;
     }
 }
+
+
+//version two
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+//    public boolean isPalindrome(ListNode head) {
+//        int count = 0 ;
+//        ListNode node = head;
+//        while( node != null ){
+//            count ++;
+//            node = node.next;
+//        }
+//
+//        ListNode midNode = head;
+//        int k = 0;
+//        while( k < count/2){
+//            midNode = midNode.next;
+//            k++;
+//        }
+//
+//        ListNode prev = null;
+//        ListNode curr = midNode ;
+//
+//        while (curr != null) {
+//            ListNode next = curr.next;
+//            curr.next = prev;
+//            prev = curr;
+//            curr = next;
+//        }
+//
+//        ListNode first = head;
+//        ListNode second = prev;
+//        while (second != null) {
+//            if (first.val != second.val) return false;
+//            first = first.next;
+//            second = second.next;
+//        }
+//
+//        return true;
+//
+//    }
