@@ -1,4 +1,4 @@
-package striversheet.linkedList;
+package striversheet.twopointers;
 
 import java.util.Arrays;
 import java.util.LinkedList;
