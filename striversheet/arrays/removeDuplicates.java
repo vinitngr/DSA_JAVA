@@ -9,10 +9,23 @@ class removeDuplicates {
                 continue;
             }
             nums[foundUnique] = nums[i];
-            foundUnique += 1;
+            foundUnique++;
             unique = nums[i];
         }
 
         return foundUnique;
     }
 }
+
+//good in memory , but perform bad in runtime, due to two array read per loop
+//    public int removeDuplicates(int[] nums) {
+//        int foundUnique = 1;
+//        for(int i = 1 ; i < nums.length ; i++){
+//            if(nums[i] != nums[i-1]){
+//                nums[foundUnique] = nums[i];
+//                foundUnique += 1;
+//            }
+//        }
+//
+//        return foundUnique;
+//    }
